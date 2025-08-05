@@ -1,0 +1,16 @@
+button{
+    background-color: aquamarine;
+}
+#div1{
+  margin: auto;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+#div2{
+    height: 50%;
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
