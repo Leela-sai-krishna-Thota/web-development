@@ -1,16 +1,47 @@
-button{
-    background-color: aquamarine;
-}
-#div1{
+
+body{
   margin: auto;
-  border: 1px solid red;
-  display: inline-block;
+  margin-top: 14%;
+  margin-left: 35%;
+  background-color: #8AA624;
+}
+button{
+    background-color: #DBE4C9;
+    height: 45px;
+    border-radius: 10%;
+  
+    
+}
+
+
+#div1{
+  display: flex;
+  gap: 10px;
+
+}
+
+#c{
+  height: 45px;
+  width:60px;
+}
+#inputbox{
+  width: 25%;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 6%;
 }
 
 #div2{
-    height: 50%;
-    width: 200px;
+  margin-left: 10px;
+    height: 90%;
+    width: 378px;
+    gap: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
+}
+
+#cal{
+  padding-left: 100px;
+  font-size:35px;
 }
